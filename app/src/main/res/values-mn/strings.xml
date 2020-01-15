@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ротензо тогооч</string>
+    <string name="navigation_drawer_open"> Навигацийн шүүгээ нээх </string>
+    <string name="navigation_drawer_close"> Навигацийн татуургыг хаах </string>
+    <string name="nav_header_desc"> Чиглүүлэлтийн толгой </string>
+    <string name="action_settings"> Тохиргоо </string>
+
+    <string name="menu_home"> Нүүр хуудас </string>
+    <string name="menu_gallery"> Цомог </string>
+    <string name="menu_slideshow"> Слайд үзүүлэх </string>
+    <string name="menu_tools"> Багаж хэрэгсэл </string>
+    <string name="menu_share"> Хуваалцах </string>
+    <string name="menu_send"> Илгээх </string>
+    <string name="menu_e_shop">Eshop</string>
+    <string name="change_pw">Нууц үгээ солих</string>
+    <string name="old_password">Хуучин Нууц үг</string>
+    <string name="new_password">Шинэ нууц үг</string>
+    <string name="conf_new_password">Шинэ нууц үг баталгаажуулах</string>
+    <string name="conf_pw_not_match">Нууц үг таарахгүй байна</string>
+
+    <string name="hello_blank_fragment"> Сайн байна уу хоосон хэсэг </string>
+    <string name="no_rcord_found"> Ямар ч бичлэг олдсонгүй </string>
+    <string name="total_min"> Нийт мин </string>
+    <string name="away_min"> Away мин </string>
+    <string name="calories_min"> Калори ккл </string>
+    <string name="protien_min"> Уураг г. </string>
+    <string name="all_ingredients_are_purchased"> Дэлгүүрээс авах зүйлсийг тэмдэглэнэ үү </string>
+    <string name="time_selected"> Цагийг сонгоно уу </string>
+    <string name="add_all_ingredients_purchased"> Бүх найрлагыг худалдаж авсан!</string>
+
+    <string name="facebook_app_id">970692009956404</string>
+    <string name="fb_login_protocol_scheme">fb970692009956404</string>
+
+    <string name="product">Бүтээгдэхүүн</string>
+    <string name="recipebook"> Хоолны жор </string>
+    <string name="checklist"> шалгах хуудас </string>
+    <string name="favourite"> Дуртай зүйл</string>
+    <string name="menu">Цэс</string>
+    <string name="username"> Хэрэглэгчийн нэр </string>
+    <string name="email"> Имэйл хаяг </string>
+    <string name="phone_nmbr"> Утасны дугаар </string>
+    <string name="password"> Нууц үг </string>
+    <string name="sign_up"> Бүртгүүлэх </string>
+    <string name="are_u_logout"> Та одоо бүртгүүлэх үү?</string>
+    <string name="register"> Бүртгүүлэх </string>
+    <string name="later"> Дараа нь </string>
+    <string name="new_recipe">Шинэ жор</string>
+    <string name="no_video">Ямар ч видео олдсонгүй</string>
+    <string name="portion">порц</string>
+    <string name="last_recipe">Сүүлд үзсэн</string>
+    <string name="share_frnds">Найзуудтайгаа хуваалцах!</string>
+    <string name="add_shoping">Жагсаалтад нэмэх</string>
+    <string name="shopping_list">Худалдан авах бүтээгдэхүүний жагсаалт</string>
+
+
+    <!--//*********************************-->
+    <string name="search_Here">Эндээс хайна уу</string>
+    <string name="select_a_device">Төхөөрөмж сонгоно уу</string>
+    <string name="chang_lang">Хэл солих</string>
+    <string name="contact_us">Холбоо барих</string>
+    <string name="share_exp">Сэтгэгдэл хуваалцах</string>
+    <string name="sign_rotenzo">Ротензо тогоочоос гарах бүртгэл</string>
+    <string name="email_">И-мэйл</string>
+    <string name="login">Нэвтрэх</string>
+    <string name="register_link">Холбоосыг бүртгүүлэх</string>
+    <string name="forget_pw">Нууц үгээ мартсан уу?</string>
+    <string name="lets_start">Тавтай морилно уу</string>
+    <string name="create_r_ac">Бүртгүүлэх</string>
+    <string name="or_login">Өөрийн бүртгэлээр нэвтрэх</string>
+    <string name="privacy_note">Үйлчилгээний журам</string>
+    <string name="cancel">цуцлах</string>
+    <string name="ok">болж байна уу</string>
+    <string name="type_time">Цагтаа бичнэ үү</string>
+    <string name="hour">цаг</string>
+    <string name="min">мин</string>
+    <string name="shopping">Дэлгүүрээс авах</string>
+    <string name="tips">Зөвлөмж</string>
+    <string name="submit">Илгээх</string>
+    <string name="setup_ac">Rotenzo Cook© апп нь богино хугацаанд энгийн орцоор амт чанартай, эрүүл хоол хийхэд тань туслана.</string>
+    <string name="enter_first">Хэрэглэгчийн нэрээ оруулна уу</string>
+    <string name="enter_pw">Нууц үгээ оруулна уу</string>
+    <string name="invalid_email_pw">имэйл эсвэл нууц үгийг хүчингүй болгох</string>
+    <string name="enter_email">И-мэйл оруулна уу</string>
+    <string name="valid_email">Зөв имэйл хаяг оруулна уу</string>
+    <string name="fail">бүтэлгүйтсэн</string>
+    <string name="success">Амжилтанд хүрсэн</string>
+    <string name="sign_cancel">Нэвтрэх цуцлах</string>
+    <string name="try_again">Дахин оролдоно уу</string>
+    <string name="select_ingre">эхлээд ямар ч найрлагыг сонго</string>
+    <string name="process">Хийх заавар</string>
+    <string name="ingre">Орц</string>
+    <string name="set_alarm">Таны дохиоллыг амжилттай тохируулсан. </string>
+    <string name="add_fav">Дуртай руу нэмсэн</string>
+    <string name="remove_fav">Дуртай зүйлээс нь хас</string>
+
+
+    <!--//***************************-->
+    <string name="next">Дараагийнх нь</string>
+    <string name="t_and_c">Бидний нэр томъёо &amp; AMP; нөхцөл</string>
+    <string name="choose_language">Хэл сонгоно уу</string>
+    <string name="write_review">Сэтгэгдэл бичих</string>
+    <string name="rate_app">Үнэлгээ өгөх</string>
+    <string name="tell_what">Санал сэтгэгдэл</string>
+    <string name="feedback_imp">Бид таны санал,\n сэтгэгдэлийг сонсохдоо баяртай байх болно </string>
+    <string name="support_us">Биднийг дэмжээрэй</string>
+    <string name="support_query">Хэрэв танд ямар нэгэн асуулт байвал бидэнтэй холбоо барина уу</string>
+    <string name="write_email">И-мэйл бичнэ үү: - support@rotenzocook.com</string>
+    <string name="or">Ба</string>
+    <string name="call_nmbr">бидэнтэй холбогдоорой: - +976 9876543210</string>
+    <string name="logout_app">Та энэ апп-аас гарахыг хүсэж байна уу</string>
+    <string name="filter">Шүүлт хийх</string>
+    <string name="check_internet">Интернет шалгана уу</string>
+
+    <string name="max_energy">Хамгийн их энергийн утга</string>
+    <string name="max_cooking">Хамгийн их хоол хийх цаг</string>
+    <string name="sort_recipe">Жор эрэмбэлэх:</string>
+    <string name="by_name">Нэрээр нь</string>
+    <string name="by_time">Хоол хийх цаг</string>
+    <string name="by_calore_value">Калорийн агууламжаар</string>
+    <string name="add_ingred">Найрлага нэмнэ</string>
+    <string name="model1">Загвар</string>
+    <string name="shape1">Дүрслэх</string>
+    <string name="type1">Төрөл</string>
+    <string name="capacity1">Хүчин чадал</string>
+    <string name="timer">Таймер</string>
+    <string name="total_rec_found">Нийт жор олдсон</string>
+    <string name="total_found">Нийт олсон</string>
+    <string name="back_again">Гарахаар бол хоёр дарна уу</string>
+    <string name="back_press">Чи гарахдаа итгэлтэй байна уу?</string>
+    <string name="shoping_list_empty">Дэлгүүрээс худалдан авах  зүйлсийн жагсаалт хоосон байна.</string>
+    <string name="favorite_list_empty">Дуртай жагсаалт хоосон байна.</string>
+    <string name="recipy_list_empty">Жорны жагсаалт хоосон байна.</string>
+
+    <string-array name="language">
+        <item>-хэл сонгох-</item>
+        <item>монгол(mn)</item>
+        <item>English(en)</item>
+
+    </string-array>
+
+
+</resources>

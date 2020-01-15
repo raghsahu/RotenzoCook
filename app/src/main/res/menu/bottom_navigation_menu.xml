@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/product"
+        android:icon="@drawable/product_i"
+        android:title="@string/product" />
+
+    <item
+        android:id="@+id/recipebook"
+        android:icon="@drawable/recipe_book_n"
+        android:title="@string/recipebook" />
+
+
+    <item
+        android:id="@+id/navigation_checklist"
+        android:icon="@drawable/shoppinglist_icon_gray"
+        android:title="@string/checklist" />
+
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/favorites_icon_gray"
+        android:title="@string/favourite" />
+
+
+
+</menu>

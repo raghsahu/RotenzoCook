@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="28dp"
+                android:width="28dp" />
+            <solid android:color="#000" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="oval">
+            <size
+                android:width="28dp"
+                android:height="28dp" />
+            <!--<solid android:color="#000" />-->
+        </shape>
+    </item>
+    <item
+
+        android:drawable="@drawable/redchecked"
+        android:width="30dp"
+        android:height="30dp"
+        tools:ignore="ResourceCycle"></item>
+
+
+
+
+
+</layer-list>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:id="@+id/mLinearLayout"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:id="@+id/imageview"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/cooker"
+                android:layout_height="100dp" />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/productname"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/mogulmagistralbold"
+                android:textColor="@color/blackColor"
+                android:layout_width="wrap_content"
+                android:text="Rotenzo fc461"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="0.6"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotocondensedregular"
+                    android:textColor="@color/lightblackcolor"
+                    android:layout_width="match_parent"
+                    android:text="@string/model1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:id="@+id/model"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotocondensedregular"
+                    android:textColor="@color/lightblackcolor"
+                    android:layout_width="match_parent"
+                    android:text="Rotenzo fc461"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="0.6"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/robotocondensedregular"
+                android:textColor="@color/lightblackcolor"
+                android:layout_width="match_parent"
+                android:text="@string/type1"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:id="@+id/type"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotocondensedregular"
+                    android:textColor="@color/lightblackcolor"
+                    android:layout_width="match_parent"
+                    android:text="Rotenzo fc461"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="0.6"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/robotocondensedregular"
+                android:textColor="@color/lightblackcolor"
+                android:layout_width="match_parent"
+                android:text="@string/shape1"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:id="@+id/shape"
+                    android:layout_marginTop="3dp"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotocondensedregular"
+                    android:textColor="@color/lightblackcolor"
+                    android:layout_width="match_parent"
+                    android:text="Rotenzo fc461"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="0.6"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/robotocondensedregular"
+                android:textColor="@color/lightblackcolor"
+                android:layout_width="match_parent"
+                android:text="@string/capacity1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight="0.4"
+                android:id="@+id/capacity"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/robotocondensedregular"
+                android:textColor="@color/lightblackcolor"
+                android:layout_width="match_parent"
+                android:text="Rotenzo fc461"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

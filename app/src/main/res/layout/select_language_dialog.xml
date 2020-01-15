@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_language"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/mogulmagistralbold"
+        android:textSize="14dp"
+        />
+
+    <RadioButton
+        android:id="@+id/radio_eng"
+        android:padding="5dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English(en)"
+        />
+
+    <RadioButton
+        android:id="@+id/radio_mn"
+        android:padding="5dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="монгол(mn)"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/next"
+        android:fontFamily="@font/robotocondensedregular"
+        android:id="@+id/login"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_corner_withoutfillcolor"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

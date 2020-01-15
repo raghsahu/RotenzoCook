@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/blackColor"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:id="@+id/mText"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/mogulmagistralbold"
+            android:text="@string/are_u_logout"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="250dp"
+            android:text="@string/register"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/robotocondensedregular"
+            android:textColor="@color/whiteColor"
+            android:background="@drawable/button_corner"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="250dp"
+            android:text="@string/later"
+            android:fontFamily="@font/robotocondensedregular"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_corner_withoutfillcolor"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

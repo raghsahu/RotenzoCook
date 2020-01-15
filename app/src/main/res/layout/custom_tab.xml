@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:id="@+id/ll_tab"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/ll_tab_bg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/round_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="15dp"
+            android:id="@+id/image"
+            android:src="@drawable/cooker"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+          />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONE"
+            android:fontFamily="@font/robotocondensedregular"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/textblackcolor"
+            android:textSize="13dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image2"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RecipeNavigationDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <SearchView
+        android:layout_weight="1"
+        android:background="@drawable/editext_background"
+        android:id="@+id/searchbar"
+        android:fontFamily="@font/robotocondensedregular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/search_Here" />
+
+
+        <ImageView
+            android:id="@+id/iv_filter"
+            android:layout_weight="1"
+            android:padding="7dp"
+            android:background="@drawable/round_image_white"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/filter"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+</LinearLayout>

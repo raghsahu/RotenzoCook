@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Fragment.IngredientsFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/portion"
+        android:textAlignment="center"
+        android:textColor="@color/blackColor"
+        android:fontFamily="@font/mogulmagistralbold"
+        />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="150dp"
+        android:weightSum="1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_minus"
+            android:background="@drawable/round_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remove_black_24dp"
+            android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_weight="0.33"
+            android:id="@+id/tv_count_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/blackColor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/mogulmagistralbold"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/round_shape"
+            android:id="@+id/iv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:textColor="@color/textblackcolor"
+        android:text="@string/all_ingredients_are_purchased"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:text="@string/add_shoping"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/button"
+        android:textSize="16dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:textAllCaps="false"
+        android:textColor="@color/whiteColor"
+        android:background="@drawable/button_corner"
+        android:layout_height="40dp" />
+
+
+
+</LinearLayout>

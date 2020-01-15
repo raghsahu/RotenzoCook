@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mLinearLayout"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/product_image"
+        android:layout_width="100dp"
+        android:fitsSystemWindows="true"
+        android:layout_height="100dp" />
+
+<TextView
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:id="@+id/textview"
+    android:text="Multi Cooker"
+    android:fontFamily="@font/robotocondensedregular"
+    android:textStyle="bold"
+    android:textColor="@color/blackColor"
+    android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

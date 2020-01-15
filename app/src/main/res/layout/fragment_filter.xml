@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/fav_backgroundimag"
+    tools:context=".Fragment.FilterFragment">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_total_recipe"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_rec_found"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_margin="20dp"
+                android:textColor="#fff"
+                android:background="#000"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/max_energy"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mogulmagistralbold"
+                />
+
+            <TextView
+                android:id="@+id/tv_kcal_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                />
+
+            <SeekBar
+                android:layout_margin="10dp"
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:fontFamily="@font/mogulmagistralbold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/max_cooking"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/img_clock"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/clock4"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:fontFamily="@font/robotocondensedregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_recipe"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radio_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/by_name"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/robotocondensedregular"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radio_cook_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/by_time"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/robotocondensedregular"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radio_cal_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/by_calore_value"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/robotocondensedregular"
+                />
+
+
+            <TextView
+                android:fontFamily="@font/robotocondensedregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_ingred"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#F50707"
+                android:textSize="20dp"
+                />
+
+            <ListView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/et_ingre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/ingre"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:padding="10dp"
+                />
+
+            <AutoCompleteTextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingre"
+                android:id="@+id/acT1"
+                android:background="#000"
+                android:textColorHint="#fff"
+                android:dropDownHeight="155dp"
+                android:clickable="true"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:fontFamily="@font/robotocondensedregular"
+                />
+
+
+            <LinearLayout
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_weight="0.85"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_del"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@drawable/delete_icon"
+                    android:backgroundTint="#fff"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

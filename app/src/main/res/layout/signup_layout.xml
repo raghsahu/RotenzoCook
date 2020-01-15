@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:background="@drawable/fav_backgroundimag"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layoutDirection="rtl"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            >
+
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="left|center"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mogulmagistralbold"
+                android:layout_alignParentStart="false"/>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:background="@drawable/fav_backgroundimag"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_weight="1.5"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+
+    <TextView
+        android:fontFamily="@font/mogulmagistralbold"
+        android:id="@+id/text"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/textblackcolor"
+        android:text="@string/lets_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/text2"
+        android:textSize="15dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:textColor="@color/textblackcolor"
+        android:text="@string/setup_ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:fontFamily="@font/robotocondensedregular"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/create_r_ac"
+        android:textSize="16dp"
+        android:id="@+id/signup"
+        android:textAllCaps="false"
+        android:textColor="@color/whiteColor"
+        android:background="@drawable/button_corner"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/robotocondensedregular"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/login"
+        android:id="@+id/login"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_corner_withoutfillcolor"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/text3"
+            android:textSize="15dp"
+            android:fontFamily="@font/robotocondensedregular"
+            android:textColor="@color/textblackcolor"
+            android:text="@string/or_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.common.SignInButton
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_goole"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:background="@color/whiteColor"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.gms.common.SignInButton>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/googl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/google_icon"
+                android:onClick="onClick_Google"
+                />
+
+        </LinearLayout>
+
+
+        <com.facebook.login.widget.LoginButton
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center"
+
+            />
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook_icon"
+            android:onClick="onClick"
+             />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+<TextView
+android:layout_weight="0.5"
+    android:fontFamily="@font/mogulmagistralbold"
+android:layout_marginLeft="15dp"
+android:id="@+id/tv_privacy_policy"
+android:textSize="15dp"
+android:textColor="@color/textblackcolor"
+android:text="@string/privacy_note"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

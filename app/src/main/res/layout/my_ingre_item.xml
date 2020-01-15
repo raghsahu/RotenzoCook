@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/mLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/robotocondensedregular"
+                android:layout_weight="0.6"
+                android:id="@+id/tv_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Corn flour"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:textColor="#111111"
+                android:background="@null"
+                />
+
+            <View
+                android:background="@color/greycolor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+
+            </View>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="5dp"
+                android:id="@+id/recycler_my_ingre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="220dp"
+    android:layout_height="120dp"
+    android:background="@color/whiteColor"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:elevation="10dp"
+    app:elevation="0dp"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    >
+
+    <!--android:background="@color/whiteColor"-->
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+       <!-- <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_weight=".5"
+            android:id="@+id/image"
+            android:src="@drawable/foodimg"
+            android:layout_height="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:riv_border_color="@color/colorPrimaryDark"
+            app:riv_corner_radius="30dp"
+            app:riv_corner_radius_top_left="30dp"
+            app:riv_corner_radius_bottom_left="20dp"/>
+-->
+
+      <ImageView
+            android:layout_weight="1"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/food_item" />
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/mogulmagistralbold"
+            android:id="@+id/txtRestaurantName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="steamed potatoes"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
